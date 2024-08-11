@@ -1,0 +1,148 @@
+/* body me hight or html ke tag ko 100% dena ak adat bnani he */
+html{
+    height: 100%;
+}
+
+body{
+    /* ismy hm jo bhi likhengy wo har chiz pr applay hoga body matlb pora page or ismy hm . nhi lgaty */
+    /* ya to hm bidy likh kr kr skty hen ya srif * ye likh kr bhi kr skty hen iska matlb all hota he */
+  display: flex;
+    /* isy ye hoga ke jo chiz bhi aygi agr wo inlin he to wesi hi rhegi lekin jo block hen wo chorai yani horizental
+    pori jga lety hen but ye krny sy wo lambai yani vertical jga leng or next line ki jgaa braber me ajayga wrna block 
+    element hmesha next line sy start hoty hen */
+    vertical-align: top;
+
+    /* ////////////////////////////////////////////////// */
+
+        height: 100px;
+        margin: 0;
+        padding : 0 ;
+        box-sizing: border-box;
+
+        /* isy ye hota he ke hm jo bnaty hen osmy ak by default oper sy or left side sy space hota he
+        to hm osy control krty hen ye chizendekr isy yehoga ke jo likhengy blkl kony sy or oper sy lg kr start hoga */
+    
+}
+
+
+
+
+.subcrib {
+    
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border-style: none;
+
+    /* 
+ ismy border_style = none ke yani hmy border style nhi chiye  */
+/* ; ye dena zarori he */
+
+    margin-left : 15px;
+    /* margin hm space ke liye use krty hen ke kis traf space hena he */
+    cursor : pointer; 
+    border-radius: 5px; 
+    vertical-align: top;
+
+}
+
+/* 
+ismy hm bhut sary batton agr bnaygy or button ke tage ko use krengy to phir hm confuse ho jaygy ke konsy button pr style 
+appaly howa he iske liye hmny use kiya he button ke tage ke ander isy ak name de diya class krky or .krky phir button ki 
+jga name likhbdengy 
+
+ismy hm  margin-left ka matlb do button ke agy left  hmny space diya he agr right likhen gy to right janib
+ cursor pointer ka matlb he agr hm c\kircle lekr jaygy
+button pr to chota sa hath bna howa ayga  lekin agr circile htadengy to error bnawa ayga ospr */
+
+.subcrib:hover{
+    background-color: yellow;
+
+}
+
+/* hover ka matlb hota he pherna or isy lgany ka matlb he jb hm subcrip button pr mouse lekr jaygy to oska color chang ho 
+jayga  */
+
+.subcrib:active{
+    background-color: black;
+}
+
+/* active lagany ka matlb he ke jb hm button pr click krengy to color chang ho jayga iska or htaygy to hat jayga */
+
+.subcrib:hover{
+    opacity: 0.3;
+}
+
+/* opacity lagany sy he hoga ke hm jb button pr mouse lekr jaygy to buttton ka apna color chang ni hoga blky dim ho 
+jayga 0 bhut zada dim ho jayga jitna number zada hoga otna dim km hoga  */
+
+.subcrib{
+    transition: background-color 0.5s;
+}
+
+/* transition sy ye hota heke hm agr hover ya opacity apply krty hen or ospr mouse lekr jaty hen to jaty sy color chang
+ya but transition applay krny sy wo aram sy smooth tariky sy hota he  */
+
+.subcrib{
+
+    box-shadow: 10px 10px 20pr black;
+}
+
+
+/* isy shadow ata he normal or phly waly no sy left side pr shedo ata he or chota bara hota he px sy or dosry no sy 
+nichy ata he shadow or 3 no sy halka tez hota he color */
+
+.subcrib{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+/* peding sy ye hota he ke jo hmny name rakha he button ka jo button ke ander likha ayga jesy subcrib wo agy pichy hoga
+age left peding krengy to wo name left side ki trab zada ho jayga or right krengy to right traf px pr depend krta 
+he ke hm kitna dety hen */
+
+
+
+
+/* *********************************************************************************** */
+/* *********************************************************************************** */
+/* agr hm zada button bnaty hen or onmy bhut sari chizen jesy jo oper use ki hen hight color peding siza agr sb me same 
+to hmy zada code likhny ki need nhi heb blky hm simple button ka tag bnaygy or os my wo sari chizen rakh dengy jo same 
+hen to wo khod sb pr applay ho jaygi or on sb me agr koch differt he color ya koch to osko wesy hi .sy name dy kr
+alag sy btadengy or osmy srif wahi likhengy jo differernt chiye hoga baqi button sy same wala khod applay ho jayga
+ */
+/* *********************************************************************************** */
+/* *********************************************************************************** */
+
+.myimag{
+    width: 200px;
+    vertical-align: top ;
+    margin-left: 50px;
+   
+}
+
+/* class yani name dekr pic ko bhi chota pra kr skty hen */
+
+.mypera{
+    display: inline;
+    /* ismy  inline krny sy  block element sy wo inline ho jayga */
+    vertical-align: top;
+    /* or isy hmm top pr krdengy top line pr */
+    margin-left: 50px;
+}
+
+.a {
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.div{
+    height: auto;
+    /* outo matlb jitna he otna rhy */
+    width: 700px;
+}
+

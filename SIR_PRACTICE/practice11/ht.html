@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singin page</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+        <section class="background">
+        <div class="sinin-div same">
+            <h1>Registration Form</h1>
+
+
+            <form >
+            <label for="text">UserName &nbsp&nbsp :&nbsp&nbsp</label>
+            <input type="text" id="text"  placeholder="Enter your name" name="namebox" required>
+            <!-- for me hm koch bhi name de skty he
+             iniput ki id or for me ak jesa name deny sy ye hota he ke hm jb username pr click krty hen to wo inputbor ko active krdeta he
+             name wesy to typescript me use krny ke liye likhty hen yani name ke name ko hm pakarty hen typesript me 
+             or name isi liye bhi kam ata he ke agr hm koi tik krny wla box bnay or do chizen den or donoke name ak jesy rakhen to ak waqt me ak hi click kr skty hen 
+              -->
+             <br>
+             <label for="passward">Password &nbsp&nbsp&nbsp&nbsp : &nbsp </label>
+             <input type="password" id="passward" placeholder="Enter Your passward" name="password" required>
+              <br>
+              <label for="email">Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp:&nbsp&nbsp </label>
+              <input type="email" id="email" placeholder="Email Id" name="email" required>
+              <br>
+              <label for="phon">Phone No &nbsp&nbsp&nbsp&nbsp :&nbsp</label>
+              <input type="tel" id="phon" pattern="[0-5]{3}[0-9]{3}-[0-9]{4}" placeholder="format : 111-111-1111" name="phon" required>
+              <!-- pattern ka matlb he ke sabsy phly [0-5]yani 0 or 5 ke darmiyan waly nomber hon pr 3 hon phir - daly user phir 3 number -phir 4 -->
+              <br> 
+              <label for="celender">Date of Birth  :&nbsp</label>
+              <input type="date" id="celender" name="celender" required>
+              <br>
+              <label for="gender">Gender &nbsp &nbsp &nbsp &nbsp &nbsp: &nbsp&nbsp </label>
+              <label for="male">Male</label>
+              <!-- &nbsp isy space ata he -->
+              <input type="radio" id="male" name="gender" class="gender">
+
+              <label for="male">Female</label>
+              <input type="radio" id="female" name="gender" class="gender">
+              <!-- radio matlb wo gol anda jismy tik krty hen -->
+               <br>
+
+               <label  for="country">Country &nbsp &nbsp &nbsp &nbsp :&nbsp&nbsp&nbsp</label>
+               <select id="country">
+                <option value="pakistan">Pakistan</option>
+                <option value="pakistan">India</option>
+                <option value="pakistan">Dubai</option>
+                <option value="pakistan">Canada</option>  
+
+               </select>
+               <!-- selet sy sary name ak box me chly jaty phir hm open krky selet kr sky hen -->
+               <br>
+               <label for="hobies">Hobbies&nbsp &nbsp &nbsp &nbsp &nbsp: &nbsp &nbsp  </label>
+               <label for="hobies">Study</label>
+               <input type="checkbox" value="yes" id="hobies" name="hobies">
+               <label for="hobies">Football</label>
+               <input type="checkbox" value="yes" id="hobies" name="hobies">
+               <label for="hobies">Working</label>
+               <input type="checkbox" value="yes" id="hobies" name="hobies">
+               <br>
+               <!-- checkbox sy choty choty box aty hen jisy hm ak sy zada select kr sakty hen -->
+              
+                <!-- <label for="coment">Comments :</label>
+                <textarea name="area" id="area" rows="5" cols="50" placeholder="Enter your comment here"></textarea>
+                <br> -->
+                <label for="file" class="document">Connect Documents </label>
+                <input type="file" id="file">
+                <br>
+              
+                <label for="agree">Are You &nbspEligible ? </label>
+                <input type="checkbox" value="yes " id="agree" name="agree" required>
+                <br>
+              
+               <input type="reset" id="reset" class="btn">
+               
+               <input type="submit" id="submit" class="btn">
+
+             
+            </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="walpapper--div same">
+            <h2 class="first-pera">Every new friend is a  new adventure**</h1>
+            <p class="second-pera">lot's get connected.</p>
+        </div>
+
+    </section>
+    
+</body>
+</html>

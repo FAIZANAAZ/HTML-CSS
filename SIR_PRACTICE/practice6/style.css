@@ -1,0 +1,124 @@
+*{margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: none;
+}
+
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(istockphoto-1441719265-1024x1024.jpg);
+    /* isy hm background pr pic lay hen */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* isy hmari picture perfect set ho jaygi */
+}
+
+
+.form-box{
+    width: 90%;
+    max-width: 400px;
+    position: absolute;
+    /* ye hmary form box ko chlayga */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(253, 194, 202);
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(165, 13, 140);
+    position: relative;
+    
+}
+
+
+.form-box h1::after{
+    /* :: esy krky hm jo krty hen wo sodo element khlata he */
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(165, 13, 140);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: (-50%);
+}
+/* hmny ye underline bnai he */
+
+.input-field{
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition:  max-height 0.5s;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    /* isky ander jo i he hm osy target kr rhy hen */
+    margin-left: 15px;
+    color: rgb(129, 131, 241);
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+
+form p a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.btn-field{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* ismy hmari div me jo do button hen wo aak left cony pr or dosra right cony pr ho jay ga */
+
+}
+
+.btn-field button{
+    flex-basis: 40%;
+    background-color:blueviolet ;
+    color: rgb(247, 240, 240);
+    height: 40px;
+    border-radius: 20px;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+    transition: background 1s;
+}
+
+.input-group{
+height: 280px;
+}
+
+.btn-field button.disable{
+    background-color:#eaeaea;
+    color: #555;
+}

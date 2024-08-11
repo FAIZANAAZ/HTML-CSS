@@ -1,0 +1,38 @@
+*{margin: 0;
+ padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;}
+
+html{
+
+    height: 100%;
+}
+
+.backgrount{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#display{
+width: 300px;
+height: 50px;
+font-size: 20px;
+/* font agr input ka bara ho to box khod bARA ho jata he */
+}
+
+.sp{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pera{
+    margin-right: 20px;
+    display: none;
+}

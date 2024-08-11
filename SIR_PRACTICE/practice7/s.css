@@ -1,0 +1,55 @@
+.out_div{
+    background-color: black;
+    height: 520px;
+    width: 350px;
+    
+}
+
+.top_div{
+    background-color: yellow;
+    height:70px;
+    width: 100%;
+   
+    
+}
+
+.p1{
+
+    color: rgb(24, 25, 26);
+    font-size: 30px;
+    padding-left: 90px;
+    padding-top: 19px;
+}
+
+.mid_div{
+    background-color :blue;
+    height: 450px;
+    width: 100%;
+    padding-top: 1px;
+}
+
+.p2{
+
+    color: aliceblue;
+    font-size: 60px;
+    padding-left: 90px;
+    padding-top: 90px;
+}
+
+.dawn_div{
+    background-color: pink;
+    height: 70px;
+    width: 100%;
+    padding-top: 1px;
+    
+    
+}
+
+.p3{
+
+    color: rgb(14, 15, 15);
+    font-size: 30px;
+    padding-left: 90px;
+    padding-bottom: 80px;
+   
+}

@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+font-family:Arial, Helvetica, sans-serif ;
+box-sizing: border-box;
+
+}
+
+.webpage{
+    background-color: palevioletred;
+    height: 100%;
+    height: 100vh;
+    /* vh matlb pori chorai */
+    display: flex;
+    /* ye vertical ko horizental kr deta he */
+    align-items: center;
+    /* ye center me krdega  lmbai sy*/
+    justify-content: center;
+    /* ye center me krdega  chorai sy sy*/
+}
+
+
+.calculater{
+
+background-color: rgb(40, 21, 82) ;
+padding: 20px;
+border-radius: 30px;
+/* ye corner ko roundkr deta he */
+
+
+}
+
+.calculater form input{
+
+      border: 0;
+      /* 0 rakhny ka matlb wo nazr na ay mitana */
+      outline: 4px;
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      background: transparent;
+      box-shadow: -5px -5px 15px rgba(218, 185, 185, 0.1),5px 5px 15px rgba(0, 0, 0, 0); 
+      /* normaly ye shadow right side or buttom me ata he or - me likhny sy left or top pr */
+      font-size: 25px;
+      color: rgb(199, 181, 181);
+      cursor: pointer;
+      margin: 8px;
+      font-weight: 50px;
+     
+
+}
+
+
+form .screen {
+
+    display: flex;
+    
+    justify-content: flex-end;
+    /* ye dono screen ko khanch kr pora kr dengy jitna chiye chorai me */
+    margin: 20px 0;
+    /* 0 likhna he taky button or screen ak hi line se star hon */
+
+}
+
+
+form .screen input{
+    text-align: right;
+   /* isyhm jo bhi likhengy calculator me wo right side start hogi */
+    flex: 1;
+    height: 80px; 
+    font-size: 45px;
+    box-shadow: 1px;
+    
+
+}
+
+form input.equal{
+    
+    width: 140px;
+
+}

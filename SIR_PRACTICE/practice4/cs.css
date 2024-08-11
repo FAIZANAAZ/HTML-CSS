@@ -1,0 +1,76 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   
+}
+
+html{
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* ye chizen hm * all body me nhi de skty or disply flex ka oper likhna sbsy lazmi he */
+    
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(192, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+
+}
+#btn1{
+    cursor : pointer;
+    width:120px ;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(26, 129, 212); 
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+#btn1:hover{
+    opacity: 0.7;
+
+}
+
+
+#btn2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor : pointer;
+    border-radius: 10px;
+    width:120px ;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(253, 96, 193);
+    margin-left: 20px;
+    
+  
+    
+}
+#btn2:hover{
+    opacity: 0.7;
+
+}
+
+.abc{
+    background-color: rgb(8, 8, 8);
+}
+
+.abc1{
+    background-color: rgb(247, 250, 66);
+}

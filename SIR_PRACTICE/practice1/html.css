@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: x-large; /* matlb extera larg*/
+    font-size: 1em;/*ye em bhi px ki trha ak unit hita he isy 1 em=100% hota he*/
+
+
+
+    font-family: Arial, Helvetica, sans-serif;/*ismy jo 3 name diye wy hity henjesy arialalag helvetica alag iska matlb he ke bhut sy 
+    broser jo hoty hen wo koch font accept nhi krty to wo arial lega broser accept nhi krta hoga to wo helvietica pr chly jayga agr wo na
+    ho to phir 3 pr isi liye wesy hoty hye font alag alag hen or ak waqt me ak hi chlta he or agr 3 font broser suppot na kry to hm 
+    dawnload krlengy goole font sy agr ak font chiye ho to srif nichy tariky sy krelngy wahi on off krky warna hm goole font pr jakr 
+    all dawnload pr click krdengy to wo ak zib file dawnlord krky dega file me phir wha sy hm open krky  jo sahi lgy osko
+    copy krengy or phir wali folder me rakhdengy jesy imag rakhty hen or phir hm osy css me imag ki trha lekr aygy esy
+    
+    sbsy oper likhengy 
+
+    @font-force{
+    src : url(font ka name) format ("truetype");
+    font-family :faiza-font}
+    is trha hm khod name de skty hen font ko or phir use hm use kr skty hen nichy apny name sy kioky sujjection nhi deta iski to 
+    bar bar copy past sy bhter osy koi name de den hm*/
+
+
+
+     
+
+   /* hm GOOGLE sy font esy laty hen */
+   /* phly jaygy googlefont search krengy phir roboto pr jaygy phir jo acha lgra he ospr click krengy phir embaded code pr jaygy
+   or  wahi khol band krny wala option lengy or jo ena he osko krengy on or copy krlengy side sy link or jhs css ki file
+   connect krty hen osky nicy past krdengy */
+   /* phir popin css me sy font family copy krengy or pera me dena he towha past krdengy agr pori web me dega me to*{} oper wha past 
+   dengy hm ya jha chiye ho wha */
+
+
+
+   text-shadow: 5px 5px 10px 2px rgb(58, 51, 51) ; /*isy text shedow ata he */
+
+
+
+
+}
+.div1{
+    background-color: green;
+    border-style: solid;/*ismy border dark ho jayga or border ke ander bhut sari chizen hoti he jesy*/
+    border-width: 8px;
+    border-color: blue;
+    border :dashed 7px palevioletred ; /*ye shortcut he 3 chizen ak sath  use krny ka*/
+    border-bottom: 9px; /*isy hm underlin ke liye osy kr skty hen order*/
+    border-style: dashed;
+    border-style: groove;/*isy double ho jata he border or light or dark bhi*/
+    border-style: inset;/*ismy backround obhara wa or border pichy howa wa ayga*/
+    border-style: ridge;/*ismy obhara wa lggyga border*/
+    border-top: dashed 7px rgb(133, 240, 62)  ;
+    border-top: dashed 7px rgb(74, 90, 230)  ; /*isy hm ak hi vorder ko zada color de skty he */
+    border-top: dashed 7px rgb(247, 85, 36)  ;
+    border-bottom: 9px; /*isy hm underlin ke liye osy kr skty hen order*/
+
+
+}
+
+.div1{
+    box-shadow: 3px 3px 5px 0 rgb(37, 35, 35);
+    /* phla right side 2 nichy 3 kitna blur ho  4 kitna phela ho  */
+
+
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    float: left;/*folat ka matlb terna isy ye hoga wo block element block hi rh kr   nichy wali chiz ko braber me right side ata he  jbky block element apny braber me nhi rakhny deta koch*/
+    float: right;/*isy ye hoga wo block element bn ko inline kr deta he or nichy wali chiz ko braber me left side ata he or khod right pr */
+    float: bottom;
+
+ 
+
+}
+
+
+.div2{
+    
+    /* agr hm display ko inle kren phit position ke sath use kren wesy bhi folat ya position ke bina inline chlta ni he to wo apny sy nichy wali chiz ko
+    oper le ta he lekin left right ni krta to hota ye he ke wo osky nichy chly jati he chop jati he yani hoti dono chizen hen
+    but ak ke oper ak hony ki wja sy wo dikhti ni hen but agr hm folat use krlen to osko hm left right de kr set kr skty hen*/
+    display: inline;
+    float: left;
+
+
+}
+.div2{
+    
+    display: inline-block;
+    visibility: hidden;/*isy ye hoga ke div apni jga to legi but nazr nhi aygi*/
+}
+
+.div2{
+    overflow: hidden;/*isy ye hota he ke aksar esa hota he ke hm div me kam zada kr lety hen to wo bahir chly jata he div sy to hm overfolw 
+    ko hidden dekr ok div ke braber krdety hen baqi ki chizen ko kat  deta he matlb div ke ander chopa deta he */
+
+    overflow: scroll;/* agr hm chahty hen ke kay na blky scrol a jay yani hmm nichy krky osko dekh sky phir hmy wo scrol lga kr
+    nichy krky dehna hota he*/
+
+    overflow: auto;/*isy ye hota he ke ye bhi scrol wala kam krta he ye zadaa acha he kioky scrol nichy bhi scrol lg deta he jiki zaroat hmy
+    nhi hoti or outo srif wahi scrol lgata he jga hmy chiye ho bs */
+
+}
+/* hm display ko block sy in line-block kr skty hen but agr hm srif inline likhen to hmy sath me folat  ya position ka bhi use krna hoga */
+
+
+
+
+.innerdiv{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-left: auto; /*isy hmara ander wala div is kony sy os kony pr chly jayga */
+    margin: auto;
+    margin-top: 100px;/*isy hmara ander wala div is center me  chly jayga but margin outo bhi dena hoga sath*/
+    
+}
+
+/* gap bhi ak property he isy gab ata do chiz ke darmiyan */
+/* hmy agr do div blkl braber braber bnani he to hm osy html me ak hi line me rakhengy wrna wo by default bich me chota sa space deta he lazmi
+or agr kam zada ho ak line me nhi ata ho to hm phli ka closing or dosri ka opening tage ko ak line me bhi mila kr rakh skty baqi sb nichy  */
+
+.div2{
+   width:auto;/*outo wesy wo by default hota he or rakhny sy hm jitni chizen rakhty jaengy wo os hsab sy apni wirdh bari krta jayga*/
+
+   margin: 20px 20px 3px; /*ismy phla wala oper or nixhy or dsra wala left right agr 3 likhengy gy to ohla wakla oper ke liye or 3ko nichy 
+   ke hisab sy chly ga */
+
+
+}
+
+.div2:visited{
+/*visited me hm agr color chang krdety hen isy ye hoga ke gar ko hmaari web ko open klrky use krlega to oska color chang ho jayga wo wlaa 
+jo visited me diya he hmny */
+margin: 1;
+}
+
+.div2{
+    /* postion ka matlb ye hota he ke wo positiom ko chang krta he na kr wo margin ki trha space dega  bakaida jga chang  kryga
+    or iska ye faida he ke margin jb hm dety hen to wo sbko hila deta he ye hilata nhi he bs jisko targit kry wahi krta he*/
+
+    /* agr hm ismy ke left dengy to bs wo left lega risght ni lega risht dengy to left ni lega buttom lega to top ni matlb deno me sy ak ko 
+    hi lega ye */
+
+    position: relative;
+    /* posityion relative apny sy sath waly div ke hisab sy chlta he yani hm agr osy top ya leg=ft dekr dor krengy to wo apny sy braber wali
+    div sy otna px door ho jayga  */
+
+    position: absolute;
+    /* posityion absolute apny sy sath waly div ke hisab sy nhi chlta he blky wo backround div ke hisab sy chlta he wo backround ko start sy lega or
+    jitna px dengy otna backround sy door ho jayga hm agr osy top ya left dekr dor krengy   */
+
+    position: fixed;
+    /* isy hm jo chiz dety hen wo fixed yani page pr chipak jati he yani hmari web site bai hoti he hm agr osy scrol krty hen to oper
+    wali chizen chopti jati hen lekin hm jis chiz ko fixed de dety hen  wo chopti nhi he blky kony me choti ho jati he or page ke oper side 
+    sath sath chlti rhti hr */
+
+    position: sticky;
+    /* ye bhi fixed ho jata he page ke sath chlta he lekin ye kony pr chota nhi hota jha iski jga he wahi rhta he or chalta he kjesy hm
+    kisi heading ko bich me de kr isy use kr skty henn ismy left right kam ni krta
+    
+    ismy hmy top ya buttom koch ak dega prhta he phir ye chlta he*/
+}
+
+.div2{
+    background-size:contain ;
+    /* ismy wo picture ko katta nhi he jobky cover me wo thora ya kat deta he but isky sath nichy hmy no repeat bhi lena prhta he */
+   background-repeat: no-repeat; 
+   /*ismy agr piccture choti  hoti he to wo repeat krky do bar rakhdeta he taky backround cover ho hm phur osy non repeat krty he
+   taky wo repeat na ho or agr hm chahty hen ke ho j ay repaert to repeat de skty hen hm khod  bhi */
+}
+
+/************************************************************************************************************************************
+
+    /* combinator 
+    +
+    >
+    ~
+     */
+
+     /*  .div  > p *********isy ye hota he ke jis div ko target kiya he wo osky ander ke sary p ko target kryga but osky bahir waly kisi ko nhi kryga */ 
+    /*   p ********* isy to wahi wo pory html me jitny pera hen sbko target kryga */
+    /*  div p ******* isy bhi wahi ke div waly sary pera ko target kryga */
+    /*.div + p*******isy ye hota he ke jis div ko target kiya he os div khatam hony ke bad jo phla peragraph hoga wo osko target kryga bs*/
+    /*.div ~ p***** isy ye hota he ke jis div ko target kiya he osky pera ko chor kr jity pera bahir hen os div ke bad wo sbko target krlega */
+
+ 
