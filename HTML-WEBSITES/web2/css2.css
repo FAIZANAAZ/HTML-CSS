@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sec1{
+    width: 100%;
+    background-color: rgb(129, 245, 118);
+    height: 100vh;
+    padding-top: 20PX;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.sec1 h1{
+    margin-left: 410PX;
+    font-size: 50PX;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 500;
+    position: static;
+    top: 1PX;
+
+}
+.sec1 h2{
+    font-size: 25px;
+ 
+    color: green
+}
+.sec1 pre{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 600;
+}
+
+.sec1 pre p{
+    border: solid;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(26, 192, 26);
+    color :white;
+    font-weight: 500;
+    font-size: 21px;
+    border-color: rgb(31, 90, 24);
+}

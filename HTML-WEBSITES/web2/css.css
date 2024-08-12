@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 4, 12, 0.4),rgba(15, 15, 27, 0.1)),url(backkkk1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 40px;
+}
+
+.home-div{
+    height:0PX;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+    
+   
+
+}
+
+.a1{
+
+   margin-top: 30px;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 600;
+   color: rgb(128, 255, 90);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 10px;
+
+
+}
+.a1:hover{
+    color: rgb(241, 233, 233);
+    transition: 0.5s;
+
+
+}
+
+.a1::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(54, 221, 12);
+    margin: auto;
+}
+
+.a1:hover::after{
+    width: 100%;
+    transition: 0.5s;
+
+}
+.inerdiv1{
+   height: 320px;
+   width: 1000px;
+   margin-top: 90px;
+   margin-left: 20px;
+
+padding-top: 60px;
+  background-image: linear-gradient(rgba(178, 224, 151, 0.400),rgba(178, 224, 151, 0.400)
+  );
+  margin-right: 10px;
+  padding-left: 90px;
+}
+
+.p1{
+    color: rgb(4, 83, 14);
+    margin-left: 180px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+.p2{
+    color: rgb(17, 19, 18);
+    margin-left: 290px;
+    margin-top: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo{
+    background-image: url(logoooooooooo.jpg);
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 350px;
+    margin-right: 100px;
+    margin-top: 20PX;
+    border: 10PX;
+    border-color: rgb(0, 0, 0);
+    border-style: ridge;
+}
+
+.logopera{
+    margin-top: 64px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Purchase{
+    margin-top: 40px;
+    margin-left: 350px;
+    font-size: 17px;
+    height: 50px;
+    width: 150px;
+    color: rgb(17, 14, 14);
+    font-weight: 600;
+    font-family:  sans-serif;
+    border-radius: 5px;
+    background-color: rgb(20, 179, 20);
+    border-color: black;
+}
+
+.Purchase:hover{
+    background-color: green;
+    height: 49px;
+    width: 149px;
+}
+
+.scnd-sec{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pera2div{
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.scnd-div u{
+  
+    color: azure;
+
+
+}
+
+.third-sec{
+    height: 320px;
+    width: 100%;
+    background-color: rgb(32, 31, 31);
+    padding-top:20px;
+    padding-left: 100px;
+    border: 40PX;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: rgb(11, 53, 25);
+    padding-right: 100px;
+
+    
+   
+}
+
+
+
+.fst-div-trid-sec{
+    display: inline-block;
+    width: 50px 0px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: rgb(32, 31, 31);
+
+}
+
+.fst-div-trid-sec h1{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.namediv1{
+    margin-bottom: 20px;
+    position: absolute;
+    left: 490px;
+    
+
+}
+
+.namediv2{
+    position: absolute;
+    left: 280px;
+    margin-left: 40px;
+   
+   
+}
+
+.fst-div-trid-sec p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.namediv3{
+    margin-left: 10px;
+}
+
+.third-logo{
+  
+    margin-left: 600px;
+   position: absolute;
+   right: 10px;
+   
+}
+
+.third-logo button{
+    
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 6px;
+    border: none;
+   
+
+}
+
+.tb1{
+    background-image:url(facebook.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+
+}
+.tb1:hover{
+    height: 69px;
+    width: 69px;
+}
+
+.tb2{
+    background-image:url(instagram.jpg) ;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+
+.tb2:hover{
+    height: 69px;
+    width: 69px;
+}
+
+.tb3{
+    background-image:url(amazon.jpg) ;
+    background-position: center;
+    height: 60px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tb3:hover{
+    height: 59px;
+    width: 99px;
+}
