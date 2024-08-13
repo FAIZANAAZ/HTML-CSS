@@ -193,4 +193,87 @@ margin: 1;
     /*.div + p*******isy ye hota he ke jis div ko target kiya he os div khatam hony ke bad jo phla peragraph hoga wo osko target kryga bs*/
     /*.div ~ p***** isy ye hota he ke jis div ko target kiya he osky pera ko chor kr jity pera bahir hen os div ke bad wo sbko target krlega */
 
- 
+ /* ********************************************************************************************************************** */
+
+ .div1{
+    /* eval
+    
+           eval ko ak fomat chiye hita he string me wo oski calculation krwa kr deta he jesy eval("1+4+5+9")*/
+           
+
+
+        display: flex;
+           /*  ye position chang krta he row ko colom colom ko row jaga gherny me bs*/
+
+        justify-content: start;  /*ismy start or end bhi or he jisy hmara content end or start me chala jata he or ye colon ke  liye hota he */
+        align-items: end;  /*ismy start or end bhi or he jisy hmara content end or start me chala jata he or ye row ke  liye hota he */
+
+        /* center dengy osky ilawa sb mr hmy flex-right yani flex dena prhengy */
+
+ }
+
+ /*******************************************************************************************************************
+ /* sodo class */
+
+ /* input background
+                 ismy hm
+                 input:focus{ background = yello }
+                                       esy dengy to wo color to dega lekin jb hm koch likhry hongy bahir click krengy agr likhny ke bad to
+                                       wo wapas white kedega hm focus ke sath or bhi chizen use kr skty hen jesy hight width
+                                       lekin  chly ga  wo same h jesy chlta he focus ka matlb hi yehi he ke jb use kren matlb koch likhen
+                                       to applay */
+                 
+                 
+/***********************************************************************************************************************/
+                                  /* sodo class me : lgta he or sodo element :: me ye hota he */
+
+/* sodo class */
+
+ul li:first-child{
+    background-color: #a02b2b;
+
+    /* isy ye hota he ke wo ul me bhut sary kism kis ke li hoty hen hmny kha ul ke li ke first child ka color chang kro matlb
+    wo phly elemeny ko list ke ka color chang krdega */
+}
+
+ul li:last-child{
+    background-color: #a02b2b;
+
+    /*  hmny kha ul ke li ke last child ka color chang kro matlb
+    wo last elemeny ko list ke ka color chang krdega */
+}
+
+
+ul li:nth-child(3){
+    background-color: #a02b2b;
+
+    /* isy ye hota he ke wo li ke us element kaa color chang kryga jo number hm () is,my dengy  */
+
+
+}
+
+ul li:not(.exclude){
+    background-color: #a02b2b;
+
+    /* ismy hmny ak class ka name l=diya he exculd wo koch bhi de skty hen not ka matlb ye howa ke ye jis list ki class ka name
+    hoga wo osky oper sy color hta dega or baqi sb pr color kr bhi deta he background wala jo diya he
+     */
+}
+/* sodo element */
+ul li::after{
+    content: 😉;
+    /* ye emoji lga dega sb me end me or after ki jga start likhengy to wo start me lga dega*/
+}
+
+/***********************************************************************************************************************/
+
+
+/* hm icon pr bhi hover ka use kr skty hen */
+.div2 .name-icon:hover{
+    transform: rotatez(345deg);
+    /* isy wo bari choti hogi */
+  
+}
+
+/***************************************************************************************************************/
+

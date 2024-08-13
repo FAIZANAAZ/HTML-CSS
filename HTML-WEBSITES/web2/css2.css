@@ -9,25 +9,32 @@
     width: 100%;
     background-color: rgb(129, 245, 118);
     height: 100vh;
-    padding-top: 20PX;
+    padding-top: 8PX;
     padding-left: 20px;
     padding-right: 20px;
+    border-top: solid 20px;
     
 }
 
 .sec1 h1{
-    margin-left: 410PX;
+    margin-bottom: 10px;
+    margin-left: 400PX;
     font-size: 50PX;
     font-family: "Anton SC", sans-serif;
     font-weight: 500;
-    position: static;
-    top: 1PX;
+    position: sticky;
+    top: 0PX;
 
 }
 .sec1 h2{
     font-size: 25px;
  
     color: green
+}
+
+.png2{
+    height: 100px;
+    width: 100px;
 }
 .sec1 pre{
 font-family: Arial, Helvetica, sans-serif;
@@ -44,4 +51,475 @@ font-weight: 600;
     font-weight: 500;
     font-size: 21px;
     border-color: rgb(31, 90, 24);
+  box-shadow: 8px 8px 10px 2px rgb(20, 70, 3);
+
+}
+
+/* *************************************************************************************************************** */
+.sec2{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(100, 250, 55, 0.3),rgba(185, 248, 166, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.sec2-div-1{
+ 
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius:160px;
+    position: relative;
+    
+    
+}
+
+.a{
+   background-image: url(a1.jpg); 
+   background-position: center;
+ 
+ background-size: contain;
+}
+
+.b{
+    background-image: url(a2.jpg); 
+    background-position: center;
+   background-size: contain;
+ }
+
+ .c{
+    background-image: url(backgroound1.jpg); 
+    background-position: center;
+    background-size: cover;
+   
+ }
+
+ .d{
+    background-image: url(a4.jpg); 
+    background-position: center;
+    background-size: contain;
+ }
+
+ .sec2-div-1 h1{
+    margin-top: 300px;
+    margin-left: 170px;
+    color: green;
+ }
+
+ .sec2-div-1  u{
+    color: rgb(96, 226, 20);
+ }
+
+ .sec2-div-1 button{
+    height: 33px;
+    width: 70px;
+    position: absolute;
+    display: block;
+    bottom: 270px;
+    margin-left: 100px;
+    border-radius: 20px;
+    color: rgb(91, 141, 16);
+    font-weight: 600;
+    border-color: green;
+  
+
+ }
+
+ .sec2-div-1 button:hover{
+    background-color: greenyellow;
+    transition: 0.5s;
+    
+ }
+ .sec2-div-1 button:active{
+    height: 32px;
+    width: 69px;
+ }
+ /* *************************************************************************** */
+.sec3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(73, 131, 19);
+    animation-name: hbv;
+    animation-duration: 5s;
+    animation-iteration-count: 1;/*yeni kitni bar chlyga or infinet ka matlb ye chlta rhy roky na*/
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    
+  
+  
+}
+
+.video1{
+ 
+
+    height: 100%;
+    width: 900px;
+    border: none;
+ 
+  
+   
+
+}
+
+@keyframes hbv{
+   from{
+        height: 0px;
+   }
+   to{
+      height: 300px;
+   }}
+
+.png1-aloe{
+    margin-top: 50px;
+   width: 260px;
+   height: 300px;
+ 
+}
+/* ***************************************************************************************************** */
+.sec4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   padding-right: 10px;
+    padding-top: 50px;
+ 
+}
+
+.sec4-div-1{
+ 
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    
+}
+
+.sec4 .e{
+ background-image: url(c1.jpg);
+ background-position: center;
+ background-size: cover;
+
+ margin-bottom: 10px;
+}
+
+.sec4 .f{
+    background-image: url(c2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec4 .g{
+    background-image: url(c3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.sec4 .h{
+    background-image: url(c4.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+
+
+
+.sec4-div-1 h1{
+    margin-top: 300px;
+    margin-left: 170px;
+    color: green;
+ }
+
+ .sec4-div-1  u{
+    color: rgb(96, 226, 20);
+ }
+
+ .sec4-div-1 button{
+    height: 33px;
+    width: 70px;
+    position: absolute;
+    display: block;
+    bottom: 290px;
+    border-radius: 20px;
+    color: rgb(91, 141, 16);
+    font-weight: 600;
+    border-color: green;
+  
+
+ }
+
+ .sec4-div-1 button:hover{
+    background-color: greenyellow;
+    transition: 0.5s;
+    
+ }
+ .sec4-div-1 button:active{
+    height: 32px;
+    width: 69px;
+ }
+
+ /* ****************************************************************************************** */
+ .sec5{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 20px;
+    background-color:white;
+    border-top: solid 20px green;
+
+ }
+
+
+ .video2{
+    height: 300px;
+    width: 100%;
+    border: none;
+    margin-left: 15px;
+    margin-top: 30px;
+   
+ }
+
+ .sec5 .i{
+    position: absolute;
+    bottom: 70px;
+    height: 350px;
+    width: 500px;
+    margin-left: 30px;
+    position: relative;
+    border: none;
+    border-radius: 100px;
+    margin-top: 60px;
+    background-color:white;
+
+ }
+
+ .sec5 .j{
+    background-image: url(b7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 20px;
+ }
+
+ .sec5 .k{
+    background-image: url(b5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+
+ }
+ .sec5 .i h1{
+    margin-top: 300px;
+    margin-left: 4px;
+    color: rgb(42, 121, 11);
+ }
+
+ .sec5  u{
+    color: rgb(96, 226, 20);
+ }
+
+ .sec5 button{
+    height: 33px;
+    width: 70px;
+    position: absolute;
+    left: 190px;
+    display: block;  
+    border-radius: 20px;
+    color: rgb(91, 141, 16);
+    font-weight: 600;
+    border-color: green;
+ }
+ .sec5 .j button{
+    position: absolute;
+    margin-right: 10px;
+ }
+
+ .sec5 button:hover{
+    background-color: greenyellow;
+    transition: 0.5s;
+    
+ }
+
+.offer-sec{
+    height: 0;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+    animation-name:hbv1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;/*yeni kitni bar chlyga or infinet ka matlb ye chlta rhy roky na*/
+    animation-timing-function: ease-in-out;
+}
+@keyframes hbv1{
+   from{
+       width: 700px;
+   }
+   to{
+     width: 100%;
+   }}
+
+/**********************************************************************************************************************/
+
+.sec6{
+   
+  
+ height: 500px;
+ width: 100%;
+}
+
+.sec6-div1{
+   height: 400px;
+   width: 100%;
+   background-image: url(long-pic1.jpg);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+  animation-name: hbv;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;/*yeni kitni bar chlyga or infinet ka matlb ye chlta rhy roky na*/
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+
+}
+
+@keyframes hbv{
+   from{
+        height: 0px;
+   }
+   to{
+      height: 300px;
+   }
+}
+
+.sec6 pre{
+   font-size: 25px;
+   font-weight: 600;
+   background-color: rgb(37, 139, 27);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 20px;
+   color: white;
+   border: solid 5px chartreuse;
+   margin: 20px;
+   padding: 10px;
+}
+/***********************************************************************************************************************/
+.sec7{
+   width: 100%;
+   height: 400px;
+   background-image: linear-gradient(rgba(100, 250, 55, 0.3),rgba(185, 248, 166, 0.3));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 40px;
+}
+
+.sec7-div-1{
+ 
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   border-radius:160px;
+   position: relative;
+   right: 40px;
+   
+   
+}
+
+.l{
+  background-image: url(d1.jpg); 
+  background-position: center;
+
+background-size: contain;
+}
+
+.m{
+   background-image: url(d2.jpg); 
+   background-position: center;
+  background-size: cover;
+}
+
+.n{
+   background-image: url(d3.jpg); 
+   background-position: center;
+   background-size: cover;
+  
+}
+
+.o{
+   background-image: url(d4.jpg); 
+   background-position: center;
+   background-size: cover;
+}
+
+.sec7-div-1 h1{
+   margin-top: 300px;
+   margin-left: 170px;
+   color: green;
+}
+
+.sec7-div-1  u{
+   color: rgb(96, 226, 20);
+}
+
+.sec7-div-1 button{
+   height: 33px;
+   width: 70px;
+   position: absolute;
+   display: block;
+   bottom: 270px;
+   margin-left: 110px;
+   border-radius: 20px;
+   color: rgb(91, 141, 16);
+   font-weight: 600;
+   border-color: green;
+ 
+
+}
+
+.sec7-div-1 button:hover{
+   background-color: greenyellow;
+   transition: 0.5s;
+   
+}
+.sec7-div-1 button:active{
+   height: 32px;
+   width: 69px;
+}
+
+
+.Medicines{
+   display: block;
+   position: relative;
+   bottom: 170px;
+   left: 610px;
+font-size: 30px;
+color: green;}
+
+/***********************************************************************************************************************************/
+.last-sec{
+   height: 100px;
+   width: 100%;
+   background-color: rgb(93, 150, 8);
 }
