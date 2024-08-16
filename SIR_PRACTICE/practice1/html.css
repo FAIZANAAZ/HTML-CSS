@@ -277,3 +277,78 @@ ul li::after{
 
 /***************************************************************************************************************/
 
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    /* isy ye hoga ke agrhmri 6 div hen or ak line me 5 a sti hen to  wo osko adjust krny ke liye siza ko chota ni krta blky jitni a skti
+    hen onti chizen raakh kr baqi agli line me le ata he */
+    flex-wrap: nowrap;
+    /* or ye opposit hota he ye sb ko ak hi line me lata jata he size ko chota krta rhta he */
+    column-gap:10px ;
+    row-gap: 10px;
+    /* isy wo row colon ki chizon ke darmiyan braber ka geb de deta he */
+
+}
+
+/***************************************************************************************************************/ 
+/* x y ka matlb hota he ke row x he oe colon y he */
+.div2{
+    transform: translate(10px , 10px);
+    /* ismy ak row ke or dosra colon he or - me dengy to wahi left hoga to right jayga oper hoga to nichy */
+
+}
+
+/***************************************************************************************************************/
+
+.div1{
+    /* hover krny ka ak or bhi tarika he hm jis chiz ko hover kren osko osi ke braket me rakh den  */
+    &:hover{
+        margin-right:sdkd;
+    }
+}
+
+/***************************************************************************************************************/
+/* disply :flex 
+dekr  hm chang bhi kr skty hen iska direcction jesy
+flex-direction : row ya colon */
+/***************************************************************************************************************/
+
+/* rotatex(360) rotatey(0.95)
+          isy div rotet hoti yani hilti he  ye hm hover me de skty hen gol*/
+/* rotatez(45deg)
+hm z use krty hen osko ghomany ke liye zada tr is trha hm button wagera me use krky osky ander ke name ko bhi chang kr skty
+
+translate :transform 1s 
+isy wo hover ya jis pr lgaygy osko 1 second ka time lekr set kryg*/
+
+
+
+/***************************************************************************************************************/
+@keyframes b {
+    from{
+        hight: 67px;
+    }to{
+        height: 896px;
+    }
+}
+
+/* isy hm animation dety hen ke yha sy yha tk ye krna he or name wo dety hen jispr apply kry hen osky ander ak animation name dena hoga same 
+phir kam kryga wo */
+
+/***************************************************************************************************************/
+ .div1{
+    animation-name: bh;
+    animation-duration: 86s;
+    /* ye time set kryga */
+    animation-iteration-count: 1;
+     /* ismy count ka matlb wo kitni bar chlyga */
+    animation-play-state: running;
+    /* ye sb krna hoga */
+ }
+
+ @keyframes bh {
+    form{
+        transform : translate (-50% , -50%)
+    }
+    to{transform: translate(-50% , -50%);}
+ }

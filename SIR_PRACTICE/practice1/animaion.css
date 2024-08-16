@@ -1,0 +1,178 @@
+.div1{
+    height: 50px;
+   width: 50px;
+   background-color: black;
+   animation-name: faiza;
+   animation-duration: 5s;
+   /* kitny time tk chkyga */
+   animation-iteration-count:infinite;
+   /* kitni bar chly ga or 2 ki jga infinit likhengy to wo roky ga nhi hmesha chlta rhyga*/
+   animation-play-state: running;
+   /* ye 4 chizen hmy zaror deni hoti  */
+
+}
+
+@keyframes faiza{
+    from{
+        /* yani jha sy start ho */
+        /* ismy hm ak sy zada chizen bhi de skty hen jesy bcolor or font de diya */
+        background-color: blue;
+
+    }
+    to{
+        /* yani jha pr end ho */
+        background-color: rgb(223, 8, 8);
+        /* ye div ka color cang kryga bar bar kioky infinit rakha he */
+    }
+}
+
+/***********************************************************************************************************************/
+
+
+.div2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    animation-name: abc;
+    animation-duration: 5s;
+    /* kitny time tk chkyga */
+    animation-iteration-count:infinite;
+    /* kitni bar chly ga or 2 ki jga infinit likhengy to wo roky ga nhi hmesha chlta rhyga*/
+    animation-play-state: running;
+    /* ye 4 chizen hmy zaror deni hoti  */
+}
+
+@keyframes abc{
+    from{
+  font-size: 0px;
+  /* ye font ko chota bara kryga */
+  
+    }
+    to{
+  font-size: 10px;
+    }
+}
+
+/***********************************************************************************************************************/
+
+   /*  ye esy chaly ga ak div me pera jesy koi niws me text left to right chlta he
+    matlb left side ki traf jayga phir gaib ho jayga phr again right ki traf sy start hoga or left traf jayga hm right denggy
+    left ki jga to right traf jayga wo*/
+.div3{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-top: 50px;
+    position: relative;
+   
+    
+
+}
+
+.p2{
+    font-size: 20px;
+    color: white;
+    animation-name: efg;
+    animation-duration: 5s;
+    /* kitny time tk chkyga */
+    animation-iteration-count:infinite;
+    /* kitni bar chly ga or 2 ki jga infinit likhengy to wo roky ga nhi hmesha chlta rhyga*/
+    animation-play-state: running;
+    /* ye 4 chizen hmy zaror deni hoti  */
+    animation-direction:alternate ;
+    /* ye deny sy hoga ke ye wo left traf jakr gaib hoke right side sy wapas nhi ayga blky left traf jayga phir end me rok 
+    kr wapas right traf jayga */
+}
+
+@keyframes efg{
+    from{
+   position: absolute;
+   left: 0%;
+  
+    }to{
+   position: absolute;
+   left: 100%;
+        
+    }
+ 
+}
+
+/***********************************************************************************************************************/
+
+.div4{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    animation-name: hij;
+    animation-duration: 5s;
+    /* kitny time tk chkyga */
+    animation-iteration-count:infinite;
+    /* kitni bar chly ga or 2 ki jga infinit likhengy to wo roky ga nhi hmesha chlta rhyga*/
+    animation-play-state: running;
+    /* ye 4 chizen hmy zaror deni hoti  */
+}
+ @keyframes hij{
+    0%{
+        position: absolute;
+        left:0%;
+
+    }
+    100%{
+        position: absolute;
+        left: 100%;
+    }
+}
+
+/***********************************************************************************************************************/
+/* esy bhi hm kr skty hen isy wo sary color chang kkry ga 5 s ke ander background ke */
+.div5{
+    height: 100vh;
+    width: 100%;
+   margin-top: 20px;
+    color: white;
+    animation-name: hhh;
+    animation-duration: 5s;
+    /* kitny time tk chkyga */
+    animation-iteration-count:infinite;
+    /* kitni bar chly ga or 2 ki jga infinit likhengy to wo roky ga nhi hmesha chlta rhyga*/
+    animation-play-state: running;
+    /* ye 4 chizen hmy zaror deni hoti  */
+}
+ @keyframes hhh{
+    0%{background-color: blue;}
+    25%{background-color: rgb(62, 201, 28);}
+    50%{background-color: rgb(150, 12, 92);}
+    75%{background-color: rgb(21, 147, 156);}
+    100%{background-color: rgb(105, 21, 21);}
+
+ }
+
+/***********************************************************************************************************************/
+/* esy bhi hm kr skty hen isy wo sary color chang kkry ga 5 s ke ander background ke gridient me yani oper ka alag or nichy
+ka alag */
+.div6{
+    height: 100vh;
+    width: 100%;
+   margin-top: 20px;
+    color: white;
+    animation-name: kkk;
+    animation-duration: 5s;
+    /* kitny time tk chkyga */
+    animation-iteration-count:infinite;
+    /* kitni bar chly ga or 2 ki jga infinit likhengy to wo roky ga nhi hmesha chlta rhyga*/
+    animation-play-state: running;
+    /* ye 4 chizen hmy zaror deni hoti  */
+}
+ @keyframes kkk{
+    0%{background:linear-gradient(rgba(253, 27, 27, 0.952),rgba(207, 15, 15, 0.932))}
+    90%{background:linear-gradient(rgba(10, 230, 10, 0.945),rgba(21, 89, 216, 0.911))}
+    180%{background:linear-gradient(rgba(240, 137, 137, 0.932),rgba(196, 7, 117, 0.904))}
+    270%{background:linear-gradient(rgba(224, 19, 231, 0.904),rgba(8, 241, 241, 0.897))}
+    360%{background:linear-gradient(rgba(245, 140, 70, 0.918),rgba(203, 238, 7, 0.877))}
+   
+ }
