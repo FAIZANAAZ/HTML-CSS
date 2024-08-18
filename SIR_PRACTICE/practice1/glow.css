@@ -1,0 +1,90 @@
+
+
+body{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(66, 49, 49);
+}
+
+
+
+.glow{
+    height: 50px;
+    width: 50px;
+    
+    position: absolute;
+    top: 45%;
+    right: 25px;
+    animation-name: glow;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+  
+   
+  
+}
+
+@keyframes glow{
+    from{
+        box-shadow: 0px 0px  50px yellow;
+        /* isy wo hower krny pr glow ki trha shadow dega */
+        transform: scale(0.3) ;
+        background-color: rgb(236, 224, 44);
+        border: solid 4px rgb(63, 241, 18);
+        
+    }
+    to{
+        box-shadow: 0px 0px  50px yellow;
+        border: solid 5px yellowgreen;
+      
+        /* isy wo hower krny pr glow ki trha shadow dega */
+        transform: scale(1.5) rotate(360deg);/*sacal sy wo chota bara hoga or rotate sy wo ghomy ga*/
+    }
+}
+
+/*******************************************************************************************************/
+/* isy rambow ki trha ak wheel type bnjayga */
+.rambow-wheel{
+    height: 300px;
+    width: 300px;
+    /* esy hm log gradients colos me 390 29 jo bhi degree de skty hen or ismy ye hota he ke agr hmny do color diye hen to ak oper ak nichy
+    a jata he to phir hm degre sy osko ghoma skty hen jesy brha brha kr oper waly ko nichy ya side me nichy waly ko oper */
+
+    background: conic-gradient(from 90deg, /*isy hmara circil ak bich sy ak con ki trha bn jata he*/
+   violet,
+   indigo,
+   blue,
+   green,
+   yellow,
+   orange,
+   red,
+   violet);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    margin-left: 10px;
+    animation-name: glow3;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function:linear ;}
+/* isy wo  smooth bina roky ghomy ga} */
+
+@keyframes glow3{
+    /* isy wo glow kryga or ghomy ga */
+    from{
+        box-shadow: 0px  0px 50px yellow;
+       transform: rotatez(360deg);
+    }
+    to{
+        box-shadow: 0px  0px 50px yellow;
+       transform: rotatez(360deg);
+       
+    
+    }
+}  
