@@ -3,6 +3,7 @@
 let pra = document.querySelector(".pr");
 let onbtn = document.querySelector("#btn1");
 let offbtn = document.querySelector("#btn2");
+let watch = document.querySelector(".watch");
 ///////////////////////////VARIABLE////////////////////////////////////////////////////////
 let sec = 0;
 let min = 0;
@@ -30,6 +31,7 @@ onbtn?.addEventListener("click", () => {
             }
         }
     }, 1000);
+    watch?.classList.add("rotating");
 });
 offbtn?.addEventListener("click", () => {
     sec = 0;
@@ -49,5 +51,7 @@ offbtn?.addEventListener("click", () => {
             return "0" + unit;
         }
     }
+    // Remove the class to stop the rotation
+    watch?.classList.remove("rotating");
     pra.textContent = "00:00:00";
 });

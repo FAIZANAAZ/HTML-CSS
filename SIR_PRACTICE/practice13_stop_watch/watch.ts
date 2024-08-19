@@ -3,6 +3,8 @@
 let pra :any= document.querySelector(".pr")
 let onbtn = document.querySelector("#btn1")
 let offbtn = document.querySelector("#btn2")
+let watch = document.querySelector(".watch");
+// ye srif border kor rotrate krny ke liye catch kiya he
 
 ///////////////////////////VARIABLE////////////////////////////////////////////////////////
  let sec = 0
@@ -39,10 +41,18 @@ onbtn?.addEventListener("click",()=>{
           }
             
         }
+
+      
+      
     },1000
+
+    
   )
 
-  
+  watch?.classList.add("rotating");
+//isy hmny jo class add ki he or osky border ko run kiya he .classlist sy class add hoti he css ki wo hmny on button me run ki he
+// taky jb button on pr click hoto border run kry warna nhi 
+
   })
 
 
@@ -69,8 +79,12 @@ offbtn?.addEventListener("click",()=>{
      }
        
    }
-
-    pra.textContent ="00:00:00"
+   pra.textContent ="00:00:00"
+  
+     
+  watch?.classList.remove("rotating");
+//isy hmny jo class add ki thi or border ko run kiya tha osko stop kr diya he
+    
     
 
 })
