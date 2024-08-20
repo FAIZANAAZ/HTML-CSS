@@ -212,7 +212,19 @@ margin: 1;
 
  }
 
- /*******************************************************************************************************************
+ /********************************************************************************************************************/
+ .div1{
+align-items: center;
+    /* hm srif esy bhi likh skty hen display ke bina isy ye hoga ke wo apni direction chang ni kryga or oper sy center jayga ot
+    block elemet howa to wo oper sy start krky dosri chizon ko bhi bich me bnay ga or braber me ni nichy nichy jesy
+                                                   abc
+                                                   abc
+                                                   abc
+agr inlineblock howa to   
+                                                 abc  abc  abc */
+}
+/* hm */
+/***************************************************************************************************************/
  /* sodo class */
 
  /* input background
@@ -324,6 +336,8 @@ isy wo hover ya jis pr lgaygy osko 1 second ka time lekr set kryg*/
 
 
 /***************************************************************************************************************/
+
+
 @keyframes b {
     from{
         hight: 67px;
