@@ -366,3 +366,11 @@ phir kam kryga wo */
     }
     to{transform: translate(-50% , -50%);}
  }
+
+
+ /******************************************************************************************************************/
+
+ .div1{
+    justify-content: space-evenly;
+    /* ye sbko ak braber space de deta he 3 5 6 jitni bhi div hon or spacebetweem bich me space deta he 2 chizon ko */
+ }

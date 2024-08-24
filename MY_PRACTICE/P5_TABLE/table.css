@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* hm alag alag sb chizon ko target krky oskp chang kr skty hen jesy td lag tr alag table alag  */
+table{
+    border: dashed;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+td{
+    border: solid 3px rgb(248, 220, 60) ;
+    font-size: 20px;
+    padding-left: 20px;
+    height: 50px;
+    width: 0px;
+  
+}
+th{
+    border: solid palevioletred;
+}
