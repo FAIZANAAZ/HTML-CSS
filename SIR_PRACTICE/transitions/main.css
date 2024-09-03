@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    height: 100vh;
+}
+
+
+.h1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-left: 10px;
+     transform: translate(-100px,-100px); /*isy hm position bhi chang krwa skty hen (1-x ,2-y)*/
+                    
+ 
+
+}
+
+
+.h2{
+    height: 100px;
+    width: 100px;
+    margin-right: 50px;
+    background-color: blue;
+    margin-left: 20px;
+    transform: scale(0.5); /*isy hm kisi chiz ko chota bara kr skty hen  0.5 sy wo chota ho jata he 1 bydefault ho jata he or 2 sy wo apny
+                            siza sy double ho jata he yaha tk ke border bhi double ho jayga*/
+     transform: scalex(2); /*isy wo x exes me lamba ho jayga or y likhengy to wo y me lamba ho jayga */                      
+}
+.h3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(16, 147, 199);
+    margin-left: 50px;
+   /*  transform: rotatez(45deg);/*isy wo ghomta he 45 sy wo adha ghom jata he hm ismy y or x use nhi krty kioky wo ak trha sy khara ho jata he to
+                             wo nazr nhi ayga but hm x or y ko transition me use kr skty hen*/
+   transition: transform 15s;  
+                             
+    transform: rotatex(360deg)                             
+                                              
+                      
+
+}
+.h4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(224, 110, 17);
+    margin-bottom: 320px;
+    margin-left: 30px;
+    transition: transform 15s;                           
+    transform: rotatex(360deg)   scale(2)
+/* ismy wo ghomy ka bhi or bara bhi hoga */
+}
+.h5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(236, 119, 119);
+    margin-left: 10px;
+    margin-top: 30px;
+
+  transition: transform 20s;
+  transform:rotatez(360deg) ;
+  /* 360deg me wo pora ak chakar lgaya he or ye ghomta apny bich sy he center point sy hm isky point ko agy pichy bhi kr skty hen
+  isy koch is trha ke wo korner sy ghomy jesy ak watch ki soi or wo hota he origen sy or ye origen sy korner korner run kryga*/
+  transform-origin: 0 0;
+  /* ye bydefault 50%x or 50%y pr hota he*/
+  /* 0 0 matlb wo apny starting point pr ghomy ga yani top first korner sy*/
+  transform-origin: 100% 0;
+/* isy wo x me 100% jayga to top second korner ho jayga or y sy wo khi nhi jayga yani wo top2 sy ghomy ga */
+transform-origin: 0 100%;
+/* ab isy y me 100% jayga yani botom first or dosra 0 ye to whi pr ghomy ga */
+transform-origin: 100% 100%;
+/* ab isy wo bottom 2korner sy ghomyga */
+
+
+
+}
+.h6{
+    height: 100px;
+    width: 100px;
+  
+
+    background-color: rgb(245, 200, 0);
+    margin-left: 10px;
+                      
+
+
+}

@@ -374,3 +374,31 @@ phir kam kryga wo */
     justify-content: space-evenly;
     /* ye sbko ak braber space de deta he 3 5 6 jitni bhi div hon or spacebetweem bich me space deta he 2 chizon ko */
  }
+
+
+/***********************************************************************************************************************/
+
+/* isy kisi chiz ko gaib kr skty hen */
+
+.div1{
+    visibility: none;
+    opacity: 0;
+    display: none;
+    /* ye alag alag bhi use krengy to gaib ho jayga */
+}
+
+/***********************************************************************************************************************/
+ 
+.div1{
+    text-shadow: 5px 5px 5px chocolate;
+    /* right buttom phelawa */
+
+    box-shadow: 5px 5px 5px 5px chocolate;
+    /* right buttom blur phelawa */
+}
+
+/***********************************************************************************************************************/
+.div1{
+    text-align: right;
+    /* ye text  ko right krdeta he */
+}

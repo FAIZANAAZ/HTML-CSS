@@ -88,3 +88,11 @@ body{
     
     }
 }  
+
+
+.div::selection{
+background-color: aqua;
+/* isy jb hm osko select krengy mouse sy jesy ctrl a sy krty hen wesy to wo color chang krdega */
+float: right;
+/* isy wo right side chky jayga yani tery ga agr left side hoto left traf */
+}
