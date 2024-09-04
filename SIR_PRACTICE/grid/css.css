@@ -1,0 +1,17 @@
+.abc{
+    /*isy hm row or colon ko handle kr skty hen sath  */
+    grid-template-columns: auto auto auto auto ;
+    /* isy ye hoga ke wo agr 10 buttons hen jesy ak div me to wo ak lne me x me ary hongy
+     to wo isko 5 colom me equal distribute krky adjust krdega */
+
+    grid-template-rows: auto auto auto auto ;
+/* isy 5 row me krdega  */
+row-gap: 5px;
+/* isy har row ke darmiyan gap a jayga 5px */
+
+column-gap: 5px;
+/* isy har column ke darmiyan gap a jayga 5px */
+grid-template-rows: 50px auto auto 50px ;
+/* isy ye hoga ke phli or akhiri row 50px ka gap le lengi osmy phlegi nhi bs jaga ghery gi jesy margin */
+
+} 
