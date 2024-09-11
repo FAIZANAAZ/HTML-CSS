@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+    <link href="src/output.css" rel="stylesheet">
+    <style>
+        .underline-double {
+            border-bottom: 4px double #0a0a0a;
+            padding-bottom: 3px;
+            display: inline-block;
+            width: fit-content;
+            margin-bottom: 0.5rem;
+        }
+        .circle-list li {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body class="bg-pink-300 flex items-center justify-center min-h-screen p-4">
+    <div class="w-[500px] max-w-4xl border-solid border-[5px] border-white  bg-blue-200 p-6  rounded-lg  ">
+        <form class="space-y-4">
+            <h2 class="text-[30px] font-bold text-center ml-[120px] text-blue-900 mb-4 underline-double">Resume Form</h2>
+            <br>
+            
+            <!-- Personal Information -->
+            <h3 class="text-lg font-semibold text-black mb-2 underline-double">Personal Information</h3>
+            <div class="mb-4">
+                <label for="first-name" class="block text-gray-900">First Name:</label>
+                <input type="text" id="first-name" name="first-name"  placeholder="Please enter your first name" class="w-full p-2 pl-[10px] border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="last-name" class="block text-gray-900">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Please enter your last name" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-900">Email:</label>
+                <input type="email" id="email" name="email" placeholder="xxx@gmail.com" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-gray-900">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="03XX-XXXXXXX" pattern="[0-9]{4}-[0-9]{7}" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="profile-picture" class="block text-gray-900">Profile Picture:</label>
+                <input type="file" id="profile-picture" name="profile-picture" class="w-full p-2  mt-1">
+            </div>
+
+            <!-- Address -->
+            <h3 class="text-lg font-semibold text-black  mb-2 underline-double">Address</h3>
+            <div class="mb-4">
+                <label for="country" class="block text-gray-900">Country:</label>
+                <select id="country" name="country" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Iran">Iran</option>
+                    <option value="China">China</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="UAE">UAE</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="city" class="block text-gray-900">City:</label>
+                <select id="city" name="city" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Faisalabad">Faisalabad</option>
+                    <option value="Rawalpindi">Rawalpindi</option>
+                    <option value="Sialkot">Sialkot</option>
+                    <option value="Gujranwala">Gujranwala</option>
+                </select>
+            </div>
+
+            <!-- Education -->
+            <h3 class="text-lg font-semibold text-black  mb-2 underline-double">Education</h3>
+            <div class="mb-4">
+                <label for="degree" class="block text-gray-900">Degree:</label>
+                <div class="relative inline-block w-full">
+                    <select id="degree" name="degree" class="block w-full p-2 border border-pink-300 rounded-[50px] mt-1 cursor-pointer" required>
+                        <option value="">Select Degree</option>
+                        <option value="B.Sc Computer Science">B.Sc Computer Science</option>
+                        <option value="B.A">B.A</option>
+                        <option value="BBA">BBA</option>
+                        <option value="M.Sc">M.Sc</option>
+                        <option value="MBA">MBA</option>
+                        <option value="M.Phil">M.Phil</option>
+                        <option value="Ph.D">Ph.D</option>
+                        <option value="B.Com">B.Com</option>
+                        <option value="M.Com">M.Com</option>
+                        <option value="LLB">LLB</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="B.Arch">B.Arch</option>
+                        <option value="M.Arch">M.Arch</option>
+                        <option value="B.Ed">B.Ed</option>
+                        <option value="M.Ed">M.Ed</option>
+                        <option value="D.Pharm">D.Pharm</option>
+                        <option value="M.Pharm">M.Pharm</option>
+                        <option value="DVM">DVM</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
+                        <option value="B.Sc Engineering">B.Sc Engineering</option>
+                        <option value="M.Sc Engineering">M.Sc Engineering</option>
+                        <option value="M.Sc Applied Sciences">M.Sc Applied Sciences</option>
+                    </select>
+                    <span class="absolute right-2 top-2 pointer-events-none">&#x25BC;</span>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="institute" class="block text-gray-900">Institute:</label>
+                <input type="text" id="institute" name="institute" placeholder="XYZ University" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="graduation-year" class="block text-black ">Year of Graduation:</label>
+                <div class="relative inline-block w-full">
+                    <select id="graduation-year" name="graduation-year" class="block w-full p-2 border border-pink-300 rounded-[50px] mt-1 cursor-pointer" required>
+                        <option value="">Select Year</option>
+                        <!-- Years from 2000 to 2024 -->
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                    </select>
+                    <span class="absolute right-2 top-2 pointer-events-none">&#x25BC;</span>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <h3 class="text-lg font-semibold text-black  mb-2 underline-double">Work Experience</h3>
+            <div class="mb-4">
+                <label for="job-title" class="block text-gray-900">Job Title:</label>
+                <input type="text" id="job-title" name="job-title" placeholder="Software Developer" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="company" class="block text-gray-900">Company:</label>
+                <input type="text" id="company" name="company" placeholder="ABC Corp" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="start-date" class="block text-gray-900">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1" required>
+            </div>
+            <div class="mb-4">
+                <label for="end-date" class="block text-gray-900">End Date:</label>
+                <input type="date" id="end-date" name="end-date" class="w-full p-2 border border-pink-300 rounded-[50px] mt-1">
+            </div>
+            <div class="mb-4">
+                <label for="job-description" class="block text-gray-900">Job Description:</label>
+                <textarea id="job-description" name="job-description" placeholder="Describe your responsibilities..." class="w-full p-2 border  border-pink-300 rounded-[10px] mt-1" required></textarea>
+            </div>
+
+            <!-- Skills -->
+            <h3 class="text-lg font-semibold text-black  mb-2 underline-double">Skills</h3>
+            <div class="mb-4">
+                <label for="skills" class="block text-gray-900">Select Skills:</label>
+                <div class="relative inline-block w-full">
+                    <select id="skills" name="skills" class="block w-full p-2 border border-pink-300 rounded-[50px] mt-1 cursor-pointer" required>
+                        <option value="" disabled selected hidden>Select your skills</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="TypeScript">TypeScript</option>
+                        <option value="React">React</option>
+                        <option value="Angular">Angular</option>
+                        <option value="Vue">Vue</option>
+                        <option value="Node.js">Node.js</option>
+                        <option value="Python">Python</option>
+                        <option value="Django">Django</option>
+                        <option value="Flask">Flask</option>
+                        <option value="Java">Java</option>
+                        <option value="Spring Boot">Spring Boot</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Laravel">Laravel</option>
+                        <option value="MySQL">MySQL</option>
+                        <option value="PostgreSQL">PostgreSQL</option>
+                        <option value="MongoDB">MongoDB</option>
+                        <option value="Git">Git</option>
+                        <option value="Docker">Docker</option>
+                        <option value="Kubernetes">Kubernetes</option>
+                    </select>
+                    <span class="absolute right-2 top-2 pointer-events-none">&#x25BC;</span>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+                <button type="submit" class="bg-blue-500 text-white px-6 py-2 hover:bg-blue-600 text-[20px] border-solid border-[5px] border-pink-500 rounded-[50px] ">Generate Resume</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
