@@ -5,4 +5,10 @@
     /* isy wo words ke letters ko alag alag kryga space dega bich bich me jesy a  b  c */
     -webkit-text-stroke: 2px black;
     /* ye text ko s trha krdega jesy double likhty hen hm text ko  */
+    backdrop-filter: blur(3px);
+    /* ye div ko blur krdega */
+    object-fit: cover;
+    /* ye picture ko set krta he */
 }
+
+
