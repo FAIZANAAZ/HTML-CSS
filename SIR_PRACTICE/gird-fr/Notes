@@ -1,0 +1,21 @@
+jb bhi hm grid ka use krty hen tb fr ka use hm zaror krty hen 
+
+grid-template-column :1fr 1fr 1fr 1fr
+
+jb hm esy likhengy to wo jitni total yani jitna parent he jesy parent 100px  he to wo phly 100 sy  ko gap  - kryga or gap he 10 to wo 90 ho jayga or phir jitny fr hongy 4 5 osko divide krdega or jo ayga number to wo jesy 25 to wo 25px ke hisab sy wirdh de dega
+
+or agr hm likhen kisi fr ki jha auto grid-template-column :auto 1fr 1fr 1fr  to wo iski w lekr ayga parent sy or agr parent ke pas jo w or border agr hoga ya koch esi chiz jo jga leti hon osko + krky jo w bany gi  wo  w dedega colom ko jesy parent ke pas he 10 to wo 10 w rakhyga column ki or osky bad 100 me sy kryga - 10 bavhy ga 90 to wo 90 ko divide kryga baki bachy 3 sy auto ko hta kr or on
+3 ko de dega osky hisab sy w devide krky bachi  hoi value ko 
+
+or agr parent kepas w nhi he to wo border jitna hga otni jga lega agr wo bhi nhi he to wo auto ko milayga hi nhi kisi chiz me samjhyga bs 3 card hen
+
+isi trha jb hmny likha ho 1fr 1fr 2fr 3fr iska matlb ye howa ke total hmary pas he 7fr lekin hen 4 hi srif w ke liye wo 7 hen yani wo divide kryga 100 ko 7 sy or  phir jesy 25 ans aya to wo phly me 1fr he to osko 25 w dega or 2 me bhi 1fr he to osko bhi 25 dega lekin 3 me kioky 2fr he to yani 50 w milygi 3 or 4 ko pr column hongy 4 hi
+
+50fr 1fr 2fr 3fr agr hm esy dety hen to wo 100 sy 50 ko - kryga than wo 10 gap nikaly ga phir 40 ko 3 sy divide kryga
+
+
+grid-template-column :1fr 1fr 1fr 1fr
+gridcolomn: "span 2"
+iska matlb span 2 yani phly 2 card ko marge krdo yani 110 mesy - gap 10 ka to phir bachyga 100 phir 100 ko 4 sy devide 25 to 3 colom bnygy ak 50 kioky span 2 ka matlb phky 2 ko marge krlo lekin agr phla auto he or na w he parent ke pas na border to wo 3 hi lega or equl krdyga 
+
+or parent matlb jisky ander card he ya koch bhi parant wo nhi he jismy hm colom bnary jis div me hm colon bnary wo wo khod he jismy div he wo parent he
